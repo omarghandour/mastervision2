@@ -338,7 +338,27 @@
         <div class="footer-bottom">جميع الحقوق محفوظة نيل مصر للسياحة</div>
       </footer>
     </div>
+<script>
 
+
+
+const ll = document.querySelector(".hiddenBurger");
+let i = 0;
+document.querySelector(".hiddenBurger").onclick = () => {
+  document.querySelector(".hiddenBurger").classList.toggle("rotate");
+  if (i === 0) {
+    document.getElementById("board").classList.remove("hidden");
+    document.getElementById("board").classList.toggle("flex");
+    i = 1;
+  } else {
+    document.getElementById("board").classList.toggle("hidden");
+    document.getElementById("board").classList.remove("flex");
+
+    i = 0;
+  }
+};
+
+</script>
     <script type="module" src="/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
