@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+  <head>
+    <meta charset="utf-8" />
+    <title>MasterVision</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="MasterVision" name="keywords" />
+    <meta content="MasterVision" name="description" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logos/logo.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link
+      href="assets/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <link
+      href="assets/css/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Add icon library -->
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <!-- <div id="pills-home_1" class="tab-content d-block container-xxl w-100"></div> -->
+
+  <body>
+    <div>
+      <!-- navbar -->
+      <nav class="flexAround">
+        <div class="hiddenBurger" style="cursor: pointer">
+          <img style="width: 30px" src="./public/burger-menu.svg" alt="" />
+          <div id="board">
+            <a href="#contactus">تواصل معنا</a
+            ><a href="#gallery">ارشيف رحلاتنا</a><a href="#home">سجل الان</a>
+          </div>
+        </div>
+        <!-- left -->
+        <div>
+          <h1>الخط الساخن</h1>
+          <span class="Hotline">19740</span>
+        </div>
+        <!-- middle -->
+        <div class="middleNav">
+          <a href="#contactus">تواصل معنا</a><a href="#gallery">ارشيف رحلاتنا</a
+          ><a href="#home">سجل الان</a>
+        </div>
+
+        <!-- right -->
+        <h2>LOGO</h2>
+      </nav>
+      <!-- Hero section -->
+      <section id="home" class="Hero">
+        <!-- Htop -->
+        <div class="Htop">
+          <div class="TopContent">
+            <h1>نيل مصر<br /><span>للسياحة</span></h1>
+            <p>رحلتك للعمرة والحج تبدأ بثقة و تنتهي بذكريات لا تنسى</p>
+            <button>احجز رحلتك الآن</button>
+          </div>
+        </div>
+        <!-- Hbottom  -->
+        <div class="Hbottom">
+          <div class="cardd">
+            <!-- Name input -->
+            <div class="form-group">
+              <input type="text" id="name" placeholder="الاسم" />
+            </div>
+
+            <div class="form-group">
+              <input type="number" id="number1" placeholder="رقم الهاتف" />
+              <select id="country1">
+                <option value="egypt">Egypt</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <input type="number" id="number2" placeholder="رقم هاتف اخر" />
+              <select id="country2">
+                <option value="egypt">Egypt</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+              </select>
+            </div>
+            <select id="country3">
+              <option value="" disabled selected style="text-align: end">
+                المستوي
+              </option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <hr />
+            <!-- Radio buttons with icons -->
+            <div class="">
+              <div class="radio-group">
+                <label>
+                  <input type="radio" name="radio" value="option1" />
+                  <img class="kabaa" src="./public/kabaa.svg" alt="" />
+                  <span style="font-size: 10px; color: #585858; margin: 0 auto"
+                    >رحلات حج</span
+                  >
+                </label>
+                <label>
+                  <input type="radio" name="radio" value="option1" />
+                  <img class="kabaa" src="./public/kabaa.svg" alt="" />
+                  <span style="font-size: 10px; color: #585858; margin: 0 auto"
+                    >رحلات عمرة</span
+                  >
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="HContent" style="color: white">
+            <h1 style="font-size: 60px; line-height: 1.5">!ابدأ رحلتك معنا</h1>
+            <p>
+              .املأ التفاصبل و سنتواصل معك لإكمال حجز برنامج العمرة أو الحج
+              وتاكيد رحلتك
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- gallery section -->
+      <section id="gallery">
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            margin-top: 100px;
+          "
+        >
+          <button
+            id="alltrips"
+            style="
+              border: 1px solid #2752a7;
+              color: #2752a7;
+              background-color: white;
+              width: 130px;
+              height: 45px;
+            "
+          >
+            جميع الرحلات
+          </button>
+          <h1 style="color: #2752a7; font-weight: bold">ارشيف رحلاتنا</h1>
+        </div>
+        <div
+          class="logoes container pb-0 px-lg-5 px-3 pt-2 wow fadeInUp mb-7"
+          id="sponsers"
+          data-wow-delay="0.1s"
+        >
+          <div class="container pt-1 pb-0 mb-5">
+            <div class="position-relative">
+              <div class="owl-carousel vendor-carousel">
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex gap-2 justify-content-center align-items-center slideImgCt px-2"
+                >
+                  <div class="d-flex align-items-center">
+                    <img
+                      class="sliderImg"
+                      src="https://bargah.org/images/Kaaba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                class="btn-next next-icon position-absolute top-50 translate-middle-y px-0"
+                aria-label="Next"
+              >
+                <i class="bi bi-chevron-left"></i>
+              </button>
+              <button
+                class="btn-prev position-absolute top-50 translate-middle-y px-0"
+                aria-label="Previous"
+              >
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer" id="contactus">
+        <div class="footer-content">
+          <!-- Contact Information -->
+          <div style="display: flex; gap: 50px">
+            <div class="contact-details">
+              <h2>تواصل معنا</h2>
+              <p style="cursor: pointer; display: flex">
+                مدينة نصر: شارع عباس العقاد
+                <img style="width: 25px" src="./public/location.svg" alt="" />
+              </p>
+              <p style="cursor: pointer">
+                وسط البلد: شارع ريب
+                <img style="width: 25px" src="./public/location.svg" alt="" />
+              </p>
+              <p style="cursor: pointer">
+                الخط الساخن: 19740
+                <img style="width: 25px" src="./public/location.svg" alt="" />
+              </p>
+            </div>
+            <!-- Social Media Links -->
+            <div
+              style="display: flex; flex-direction: column"
+              class="social-icons"
+            >
+              <a href="#"
+                ><img style="width: 40px" src="./public/Facebook.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img style="width: 40px" src="./public/x.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img style="width: 40px" src="./public/instagram.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  style="width: 40px"
+                  src="./public/linkedin-svgrepo-com.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- Logo -->
+          <div class="logo">
+            <h2>LOGO</h2>
+            <p style="text-wrap: pretty">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
+              nesciunt nam corrupti vero unde fugit distinctio facilis, animi
+              odio, illum culpa! Corrupti, saepe maxime perspiciatis voluptate
+              laudantium ullam tempore beatae.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <!-- Footer Bottom Text -->
+        <div class="footer-bottom">جميع الحقوق محفوظة نيل مصر للسياحة</div>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/wow/wow.min.js"></script>
+    <script src="assets/lib/easing/easing.min.js"></script>
+    <script src="assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="assets/lib/counterup/counterup.min.js"></script>
+    <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
